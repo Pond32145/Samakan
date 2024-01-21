@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .npru-input{
+      @apply border border-blue-200 hover:border-red-200 pl-2 rounded-md py-1.5 text-sm;
+    }
+    .npru-button {
+      @apply bg-blue-400 rounded-sm text-gray-100 hover:bg-blue-600 p-1 mt-4;
+    }
+    .btnfc{
+      @apply bg-green-500 text-green-200 p-4 rounded-md text-xl;
+    }
+    .btn-nav{
+      @apply bg-orange-500 text-green-50  rounded-md ml-2 mr-2 w-2/12 text-center text-lg p-3;
+    }
+    
+  
+}
+table{
+  width: 100%;
+}
+table th{
+  border: 1px solid ;
+  padding: 5px;
+
+
+ background-color: rgb(243, 15, 15);
+ color: aliceblue;
+
+}
